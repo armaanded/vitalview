@@ -14,9 +14,9 @@
 }
 
 .hero-bg {
-    background: linear-gradient(-60deg,
-    #00B3A4,#E785F9,#A14DB3
+    background: linear-gradient(-55deg,
+    #00B3A4,#E785F9,#A14DB3,#4DD0FC,#2A53F0,#A6E23B,#9151D8,#006C66
     );
-    background-size: 500% 500%;
+    background-size: 800% 800%;
     animation: gradientBG 15s ease infinite;
 }

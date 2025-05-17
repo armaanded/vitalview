@@ -1,5 +1,5 @@
 import React from 'react';
-import main_logo from './images/vitalview_logo.png';
+import main_logo from './images/vitalview_logo.svg';
 
 const Navbar = () => {
     return (

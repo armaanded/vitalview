@@ -1,12 +1,18 @@
-import Navbar from './components/Navbar';
-import Hero from "./components/Hero.jsx";
+import { useState } from "react";
+import IntroVideo from "./components/IntroVideo";
+import Hero from "./components/Hero";
 
-export default function App() {
+function App() {
+    const [videoEnded, setVideoEnded] = useState(false);
+
     return (
         <>
-            <Navbar />
-            <Hero />
-
+        <div className="overflow-hidden">
+            <IntroVideo onFinish={() => setVideoEnded(true)} />
+            {videoEnded && <Hero />}
+        </div>
         </>
     );
 }
+
+export default App;
