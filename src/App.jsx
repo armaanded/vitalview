@@ -1,10 +1,9 @@
-import Navbar from "../components/Navbar.jsx";
+import Navbar from './components/Navbar';
 
-const App = () => {
+export default function App() {
     return (
         <>
-            <Navbar />
+            <Navbar/>
         </>
-    )
+    );
 }
-export default App
